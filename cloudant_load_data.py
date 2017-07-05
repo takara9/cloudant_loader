@@ -17,15 +17,15 @@ from cloudant.query import Query
 
 #==================================
 # ロード先データベース名
-output_db = 'hokkaido'
+output_db = 'sample'
 
 # インプットCSVファイル名
-input_file = '01hokkai.csv'
+input_file = 'sample.csv'
 output_file = input_file + ".utf-8"
 #==================================
 
 # Cloudant認証情報の取得
-f = open('../config/vcap-local.json', 'r')
+f = open('./vcap-local.json', 'r')
 cred = json.load(f)
 f.close()
 
