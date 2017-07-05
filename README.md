@@ -32,6 +32,16 @@ output_file = input_file + ".utf-8"
 # Cloudant認証情報の取得
 ~~~
 
+# Cloudant サービス資格情報
+
+Cloudant へアクセスするには、Bluemixのサービス資格情報が必要です。Bluemix からCloudantのサービスを作成して、サービス資格情報をvcap-local.jsonにセットしてください。
+
+次の様にファイル名を変更して、credentials 以下の内容を設定します。
+
+~~~
+mv vcap-local.json.sample vcap-local.json
+~~~
+
 
 # エラー処理
 
