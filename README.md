@@ -9,6 +9,15 @@
 
 郵便番号データ: http://www.post.japanpost.jp/zipcode/dl/kogaki-zip.html
 
+# 追加モジュールの導入
+
+このプログラムは、Python 2.7系様に書いてあります。また実行には、pip install でモジュールを追加する必要があり、次のコマンドで一括インストールできます。
+
+~~~
+pip install -r requirements.txt
+~~~
+
+
 
 # 入力ファイル名と出力先データベースの指定方法
 
